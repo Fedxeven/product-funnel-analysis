@@ -8,10 +8,19 @@ The funnel consists of four stages:
 
 Registration → Product View → Add to Cart → Purchase
 
-## What I analyzed
-- Number of unique users at each stage
-- Conversion from registration
-- User drop-off between stages
+## Results
+| Stage | Users | Conversion |
+|------|------:|-----------:|
+| Registration | 15 | 100% |
+| Product View | 14 | 93.3% |
+| Add to Cart | 10 | 66.7% |
+| Purchase | 6 | 40.0% |
+
+## Key findings
+- 15 users registered.
+- 6 users completed a purchase.
+- Overall conversion from registration to purchase was 40%.
+- The largest drop-off occurred between Product View and Add to Cart.
 
 ## Tools
 - Python
